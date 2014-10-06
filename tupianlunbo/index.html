@@ -1,0 +1,77 @@
+<!Doctype html><html xmlns=http://www.w3.org/1999/xhtml>
+<html>
+	<head>
+		<title></title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+		<meta name="KeyWords" content=""/>
+		<meta name="description" content=""/>
+		<!--js css-->
+		<style type="text/css">
+			*{border:0 none;padding:0;margin:0;font-size:15px;font-family:"微软雅黑"}
+			.banner{background-color:#99aabb;width:100%;height:60px;}
+			.content{background-color:#778899;width:520px;height:280px;margin:10px auto;overflow:hidden;position:relative;}
+			.content ul{
+				/*绝对定位*/
+				position:absolute;
+				left:0;bottom:0;
+				/*兼容老的IE 6*/
+				filter:alpha(opacity=50);
+				/*兼容老的Mozilla*/
+				-moz-opacity:0.5;
+				/*兼容老的Safari*/
+				-khtml-opacity:0.5;
+				/*必须有*/
+				opacity:0.5;
+			}
+			.content ul li{
+				/*border:1px solid red;*/
+				/*去掉列样式*/
+				list-style:none;
+				float:left;
+				background-color:black;
+				width:130px;
+				height:30px;
+				color:white;
+				text-align:center;
+				line-height:30px;
+				cursor:pointer;
+			}
+			.content .bg_orange{background-color:#FF6600;}
+		</style>
+		<script language="javascript" src="js/jquery.js">
+		</script>
+		<script language="javascript" src="js/function.js">
+		</script>
+	</head>
+	<body>
+		<div class="banner"></div>
+		<div class="content">
+			<p>
+				<a href="#">
+					<img src="img/4 (1).jpg" title="图片" alt="(1)" width="520" height="280"/>
+				</a>
+			</p>
+			<p>
+				<a href="#">
+					<img src="img/4 (2).jpg" title="图片" alt="(1)" width="520" height="280"/>
+				</a>
+			</p>
+			<p>
+				<a href="#">
+					<img src="img/4 (3).jpg" title="图片" alt="(1)" width="520" height="280"/>
+				</a>
+			</p>
+			<p>
+				<a href="#">
+					<img src="img/4 (4).jpg" title="图片" alt="(1)" width="520" height="280"/>
+				</a>
+			</p>
+			<ul>
+				<li class="bg_orange">爱宝贝从心开始</li>
+				<li>秋天的温暖</li>
+				<li>淘游戏</li>
+				<li>关爱私密</li>
+			</ul>
+		</div>
+	</body>
+</html>
